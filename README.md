@@ -9,7 +9,7 @@ Application is developed in C# (.Net Core Console Application). Application will
  - Open command line (cmd)
  - Type:
 ```sh
-generate filePath -c false -d 1
+generate filePath -c -d 1
 ```
 
 ```sh
