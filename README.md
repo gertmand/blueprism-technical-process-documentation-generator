@@ -6,8 +6,8 @@ Application is developed in C# (.Net Core Console Application). Application will
 
  - Download the ZIP file and extract it to the folder
  - Open up the folder, where "generate.exe" file is located
- - Open command line (cmd)
- - Type:
+ - Open command line (cmd) in that folder (type "cmd" on the address bar)
+ - Type (cmd command):
 ```sh
 generate filePath -c -d 1
 ```
