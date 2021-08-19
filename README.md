@@ -13,10 +13,16 @@ generate filePath -c -d 1
 ```
 
 ```sh
-generate "C:\Users\ComputerName\Desktop\myprocess.bpprocess" -c false -d 2.1
+generate "C:\Users\ComputerName\Desktop\myprocess.bpprocess" -c -d 2.1
+```
+```sh
+generate "C:\Users\ComputerName\Desktop\myprocess.bpprocess" -d 1.0
+```
+```sh
+generate "C:\Users\ComputerName\Desktop\myprocess.bpprocess" -d 1 -c
 ```
 
--c (condition - optionl) is for post- or preconditions. True - All conditions will be documented, even if they are "None". False - Hide all empty/None conditions. Default: **false**
+-c (condition - optionl) is for post- or preconditions. True (-c added argument) - All conditions will be documented, even if they are "None". False - Hide all empty/None conditions. Default: **false**
 
 -d (documentNo - optionl) is for starting number of process subpages. For example, if -d **1**, then the first number will be **1**.1, **1**.2, **1**.3. Default: 1
 
