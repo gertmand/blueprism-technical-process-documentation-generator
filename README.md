@@ -12,6 +12,7 @@ Application is developed in C# (.Net Core Console Application). Application will
 generate filePath -c -d 1
 ```
 
+Examples:
 ```sh
 generate "C:\Users\ComputerName\Desktop\myprocess.bpprocess" -c -d 2.1
 ```
